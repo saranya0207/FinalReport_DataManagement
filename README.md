@@ -96,7 +96,7 @@ All datasets were obtained from the Malaysian Government Open Data Portal ([data
 ## Repository Contents
 
 - `FinalReport_Data_Management.ipynb` — full notebook with Hive/Spark methodology, Python analysis, charts, and discussion.
-- `covid_analysis.py` — PySpark script used for distributed processing (referenced in the report; see GitHub link in notebook).
+- `covid_analysis.py1` — PySpark script used for distributed processing (referenced in the report; see GitHub link in notebook).
 - Source CSVs (`covid_cases.csv`, `covid_cases_age.csv`, `covid_cases_vaxstatus.csv`) — input datasets used in the Python analysis stage.
 
 ## Requirements
