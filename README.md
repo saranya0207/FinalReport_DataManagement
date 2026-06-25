@@ -101,9 +101,9 @@ All datasets were obtained from the Malaysian Government Open Data Portal ([data
 
 ## Requirements
 
-- Python 3.x
+- Python
 - `pandas`, `matplotlib`, `seaborn`
-- Hadoop/Hive/Spark cluster access (for the big-data pipeline stages)
+- Hadoop/Hive/Spark cluster access
 
 ## Conclusion
 
