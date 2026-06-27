@@ -1,4 +1,4 @@
-# Analysis of COVID-19 Cases in Malaysia Using Apache Spark and Hive
+# Analysis of COVID-19 Cases in Malaysia from 2020 to 2025
 <img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/709ea15a-2d4b-43c8-a5ae-3a3a212c7340" />
 
 ## Overview
@@ -55,11 +55,8 @@ All datasets were obtained from the Malaysian Government Open Data Portal ([data
 - Daily trend lines for new, imported, recovered, active, and cluster cases
 - Comparative trends of new cases, recoveries, and active cases over time
 - Active vs. recovered cases by state
-- 7-day moving average of daily cases
 - Vaccination status breakdown by state
 - Age group distribution of cases
-- Correlation heatmap between case variables
-- Composite COVID-19 risk score by state (based on new cases, active cases, unvaccinated population, and elderly population)
 - Monthly new cases heatmap by state
 - Cases by age group and state
 
@@ -80,10 +77,6 @@ All datasets were obtained from the Malaysian Government Open Data Portal ([data
 - New, active, and recovered case counts are strongly positively correlated (Pearson r near 1.00).
   
     <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5e11fd34-8f2c-41fd-a656-2ac3590597f3" />
-
-- Smaller states/territories (e.g., Perlis, W.P. Labuan, W.P. Putrajaya) showed consistently lower case totals across all analyses.
-  
-    <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/198e3cc1-0d7b-4988-824e-07bd585f972d" />
 
 
 ## Recommendations
